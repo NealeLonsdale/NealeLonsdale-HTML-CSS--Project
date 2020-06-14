@@ -6,9 +6,31 @@
   width: 300px;
   height: 100%;
 }
-
-header {
+a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  font-size: 15px;
+}
+header{
+  color: black;
+  margin: 10px;
+  text-align: center;
   font-size: 30px;
-  padding-left: 30px;
-  padding-top: 10px;
+}
+#main-doc{
+  margin-left: 400px;
+}
+
+#navbar li {
+  list-style: none;
+  border-top: 1px solid;
+  line-height: 30px;
+  position: relative;
+  width: 100%;
+  left: 0px;
+}
+ul{
+  padding: 0px;
 }
